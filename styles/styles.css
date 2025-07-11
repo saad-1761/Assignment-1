@@ -123,3 +123,31 @@ header div p{
     color: rgba(37, 36, 50, 50%);
     margin:0px 10px 50px;
 }
+
+/* focus section */
+.focus-section{
+    background-color: white;
+    margin:116px 160px 116px 140px;
+    border-radius: 20px;
+    text-align: center;
+}
+.focus-title{
+    font-size: 50px;
+    margin: 50px 312px 0px;
+   
+    padding-top: 71px;
+    padding-bottom: 20px;
+}
+.focus-text{
+    font-family:"Inter", sans-serif;
+    font-size: 10px;
+    color: rgba(37, 36, 50, 50%);
+    margin: 0px 326.5px;
+    padding-bottom: 20px;
+    
+}
+
+.focus-img{
+    border-radius: 48px;
+    margin: 20px auto 71px;
+}
