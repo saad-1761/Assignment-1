@@ -210,3 +210,36 @@ form label{
     font-family: "Inter", sans-serif;
     margin-bottom: 90px;
 }
+
+/*footer section */
+
+footer{
+    background-color: white;
+    text-align: center;
+    width:100%;
+    height: 428px;
+}
+.footer-title{
+    font-size: 100px;
+    padding: 104px 575px 0px;
+    color: #4E47FF;
+    font-family: "inter", sans-serif;
+    margin-bottom: 0px;
+}
+.footer-text{
+    color: #8987A1;
+    font-family: "inter", sans-serif;
+    font-size: 16px;
+    padding:8px 455px 20px 454px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.footer-section a{
+    text-decoration: none;
+    color: #8987A1;
+    font-size: 16px;
+    font-family:"inter", sans-serif ;
+    margin: 0px 24px;
+}
+
