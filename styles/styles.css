@@ -4,6 +4,8 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+
+
 /*header styles*/
 body{
     margin: 0px;
@@ -56,6 +58,7 @@ header div p{
 
 /*main section */
 
+/*preview section*/
 .section-preview{
     display: flex;
     justify-content: space-between;
@@ -75,4 +78,48 @@ header div p{
 }
 .preview-img{
     border-radius: 48px;
+}
+
+/*info section*/
+.info-section{
+    background-color: rgb(78, 71, 255,10%);
+    margin:116px 160px 116px 140px;
+    border-radius: 20px;
+    align-items: center;
+}
+.info-header{
+    font-size: 30px;
+    text-align: center;
+    padding: 50px 142px 0px 142px;
+}
+.info-description{
+    display: flex;
+    gap:160px;
+    justify-content: space-evenly;
+    margin:0px 142px;
+}
+.info-number{
+    font-family:"Inter", sans-serif;
+    font-size: 95px;
+    color: #4E47FF;
+    margin-bottom:0px;
+    margin-top: 0px;
+}
+.info-number-details-1{
+    font-family:"Inter", sans-serif;
+    font-size: 20px;
+    color: rgba(37, 36, 50, 50%);
+    margin:0px 30px 50px;
+}
+.info-number-details-2{
+    font-family:"Inter", sans-serif;
+    font-size: 20px;
+    color: rgba(37, 36, 50, 50%);
+    margin:0px 17px 50px;
+}
+.info-number-details-3{
+    font-family:"Inter", sans-serif;
+    font-size: 20px;
+    color: rgba(37, 36, 50, 50%);
+    margin:0px 10px 50px;
 }
