@@ -5,14 +5,19 @@
   font-style: normal;
 }
 /*header styles*/
-header{
-    background-image: url(Assets/Hero-bg.png);
+body{
+    margin: 0px;
+}
+body header{
+    background-image: url(../Assets/Hero-bg.png);
+    width: 100%;
+    height: 698px;
 }
 /* nav styles*/
 nav{
     display: flex;
     justify-content: space-between;
-    background-image: url(Assets/hero.bg);
+    
 }
 nav ul li{
     list-style: none;
@@ -20,16 +25,30 @@ nav ul li{
 
 nav h1{
     color: #4E47FF;
+    font-weight: bolder;
     font-size: 34px;
     margin: 100px auto 100px 150px;
 }
 
 nav button{
+    margin:100px 150px 100px auto;
+}
+
+.btn-primary{
     color:white;
-    background-color: #4E47FF;
-    margin: 100px 150px 100px auto;
+    background-color:#4E47FF;
     font-size: 16px;
     padding:12px 36px;
     border-radius: 10px;
     border: none;
+}
+
+.banner-text{
+    color: #252432;
+    font-size: 65px;
+    text-align: center;
+}
+
+header div p{
+    margin-bottom:0px;
 }
