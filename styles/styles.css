@@ -151,3 +151,62 @@ header div p{
     border-radius: 48px;
     margin: 20px auto 71px;
 }
+
+/* user section */
+.user-section{
+    display: flex;
+    margin:116px 160px 116px 140px;
+    justify-content: space-between;
+}
+
+.user-section-text{
+    font-size: 97px;
+}
+
+
+form input , label{
+    display: block;
+}
+form label{
+    margin-bottom: 19px;
+    font-family: "Inter",sans-serif;
+    font-size: 18px;
+    font-weight:200 ;
+}
+.user-section input[type="email"],.user-section input[type="text"]{
+ width: 497px;
+ height: 70px;
+ border-radius: 10px;
+ border: none;
+ padding: 20px 32px;
+ font-size: 20px;
+ font-family: "Inter", sans-serif;
+ margin-bottom: 19px;
+}
+.user-section textarea{
+ width: 497px;
+ border-radius: 10px;
+ border: none;
+ padding: 20px 32px;
+ font-size: 20px;
+ font-family: "Inter", sans-serif;
+ margin-bottom: 19px;
+}
+
+.btn-secondary{
+    color:white;
+    background-color:#4E47FF;
+    font-size: 16px;
+    padding:19px 201px;
+    border-radius: 10px;
+    border: none;
+    
+}
+.user-section input[type="submit"]{
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 90px;
+}
