@@ -44,6 +44,12 @@ nav button{
     padding:12px 36px;
     border-radius: 10px;
     border: none;
+    cursor: pointer;
+}
+.btn-primary:hover {
+  background-color: #45a049;
+  transform: scale(1.05); /* Slight zoom effect */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .banner-text{
@@ -123,7 +129,64 @@ header div p{
     color: rgba(37, 36, 50, 50%);
     margin:0px 10px 50px;
 }
+/* review section */
+.review{
+    margin:116px 160px 116px 140px;
+    text-align: center;
+}
+.review-container{
+    display: flex;
+    gap:20px;
+}
 
+.rating{
+    background-color: white;
+    border-radius: 20px;
+    text-align: left;
+    padding:24px;
+}
+.rating-title{
+    font-size:24px;
+    color: #1E1E1E;
+    margin-bottom: 8px;
+    margin-top: 10px;
+}
+.rating-text{
+    font-size: 16px;
+    color:#1E1E1E;
+    margin-bottom: 0px;
+}
+.review-title{
+    font-size:42px;
+}
+.reviewer-details{
+    display: flex;
+    align-items: center;
+    margin-top: 24px;
+}
+.reviewer-img{
+    border-radius:100px;
+    margin-right: 12px;
+    height: 40px;
+    width: 40px;
+}
+.reviewer-name{
+    font-family: "inter",sans-serif;
+    font-size: 16px;
+    font-weight:300px;
+    color: #757575;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin: 0px;
+}
+.review-date{
+    font-family: "inter",sans-serif;
+    font-size: 16px;
+    font-weight:300px;
+    color: #B3B3B3;
+    padding-top: 0px;
+    margin:0px;
+}
 /* focus section */
 .focus-section{
     background-color: white;
@@ -200,7 +263,13 @@ form label{
     padding:19px 201px;
     border-radius: 10px;
     border: none;
+    cursor:pointer;
     
+}
+.btn-secondary:hover {
+  background-color: #45a049;
+  transform: scale(1.05); /* Slight zoom effect */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 .user-section input[type="submit"]{
     width: 100%;
@@ -241,5 +310,13 @@ footer{
     font-size: 16px;
     font-family:"inter", sans-serif ;
     margin: 0px 24px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.footer-section a:hover {
+  background-color: #fafafa;
+  transform: scale(1.05); /* Slight zoom effect */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
