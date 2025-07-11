@@ -7,6 +7,7 @@
 /*header styles*/
 body{
     margin: 0px;
+    background-color: #F5F8FF;
 }
 body header{
     background-image: url(../Assets/Hero-bg.png);
@@ -17,7 +18,7 @@ body header{
 nav{
     display: flex;
     justify-content: space-between;
-    
+
 }
 nav ul li{
     list-style: none;
@@ -51,4 +52,27 @@ nav button{
 
 header div p{
     margin-bottom:0px;
+}
+
+/*main section */
+
+.section-preview{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:116px 160px 116px 140px;
+    background-color: white;
+}
+
+.preview-title{
+    color:#252432;
+    font-size: 42px;
+    margin-bottom: 23px;
+}
+.preview-text{
+    color:rgba(37, 36, 50, 50%);
+    margin: 23px 0;
+}
+.preview-img{
+    border-radius: 48px;
 }
